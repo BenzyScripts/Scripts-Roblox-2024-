@@ -1,0 +1,256 @@
+-- Gui to Lua
+-- Version: 3.1
+ 
+-- Instances:
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageButton = Instance.new("ImageButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Zen = Instance.new("TextButton")
+local Floss = Instance.new("TextButton")
+local Ninja = Instance.new("TextButton")
+local Dab = Instance.new("TextButton")
+local SprayPaint = Instance.new("TextButton")
+local Sit = Instance.new("TextButton")
+local Headless = Instance.new("TextButton")
+local Zombie = Instance.new("TextButton")
+local Title = Instance.new("TextLabel")
+local Idk = Instance.new("TextLabel")
+ 
+--Properties:
+ 
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-2.98023224e-08, 0, 0.805207729, 0)
+Frame.Size = UDim2.new(0, 120, 0, 93)
+ 
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(7.27391291, 0, 0, 0)
+ImageButton.Size = UDim2.new(0, 138, 0, 93)
+ImageButton.Image = "http://www.roblox.com/asset/?id=1279051501"
+ 
+ScrollingFrame.Parent = ImageButton
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.Size = UDim2.new(0, 138, 0, 93)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 2, 100)
+ 
+Zen.Name = "Zen"
+Zen.Parent = ScrollingFrame
+Zen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Zen.BackgroundTransparency = 0.500
+Zen.Position = UDim2.new(0.0579710156, 0, 0.177419364, 0)
+Zen.Size = UDim2.new(0, 48, 0, 36)
+Zen.Font = Enum.Font.SourceSans
+Zen.Text = "Zen"
+Zen.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zen.TextScaled = true
+Zen.TextSize = 14.000
+Zen.TextWrapped = true
+ 
+Floss.Name = "Floss"
+Floss.Parent = ScrollingFrame
+Floss.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Floss.BackgroundTransparency = 0.500
+Floss.Position = UDim2.new(0.48550722, 0, 0.182795674, 0)
+Floss.Size = UDim2.new(0, 48, 0, 36)
+Floss.Font = Enum.Font.SourceSans
+Floss.Text = "Floss"
+Floss.TextColor3 = Color3.fromRGB(0, 0, 0)
+Floss.TextScaled = true
+Floss.TextSize = 14.000
+Floss.TextWrapped = true
+ 
+Ninja.Name = "Ninja"
+Ninja.Parent = ScrollingFrame
+Ninja.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Ninja.BackgroundTransparency = 0.500
+Ninja.Position = UDim2.new(0.0579710007, 0, 0.327956975, 0)
+Ninja.Size = UDim2.new(0, 48, 0, 36)
+Ninja.Font = Enum.Font.SourceSans
+Ninja.Text = "Ninja"
+Ninja.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ninja.TextScaled = true
+Ninja.TextSize = 14.000
+Ninja.TextWrapped = true
+ 
+Dab.Name = "Dab"
+Dab.Parent = ScrollingFrame
+Dab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dab.BackgroundTransparency = 0.500
+Dab.Position = UDim2.new(0.48550722, 0, 0.322580636, 0)
+Dab.Size = UDim2.new(0, 48, 0, 36)
+Dab.Font = Enum.Font.SourceSans
+Dab.Text = "Dab"
+Dab.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dab.TextScaled = true
+Dab.TextSize = 14.000
+Dab.TextWrapped = true
+ 
+SprayPaint.Name = "SprayPaint"
+SprayPaint.Parent = ScrollingFrame
+SprayPaint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SprayPaint.BackgroundTransparency = 0.500
+SprayPaint.Position = UDim2.new(0.0579710007, 0, 0.489247292, 0)
+SprayPaint.Size = UDim2.new(0, 48, 0, 36)
+SprayPaint.Font = Enum.Font.SourceSans
+SprayPaint.Text = "SprayPaint"
+SprayPaint.TextColor3 = Color3.fromRGB(0, 0, 0)
+SprayPaint.TextScaled = true
+SprayPaint.TextSize = 14.000
+SprayPaint.TextWrapped = true
+ 
+Sit.Name = "Sit"
+Sit.Parent = ScrollingFrame
+Sit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sit.BackgroundTransparency = 0.500
+Sit.Position = UDim2.new(0.492753595, 0, 0.489247292, 0)
+Sit.Size = UDim2.new(0, 48, 0, 36)
+Sit.Font = Enum.Font.SourceSans
+Sit.Text = "Sit"
+Sit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Sit.TextScaled = true
+Sit.TextSize = 14.000
+Sit.TextWrapped = true
+ 
+Headless.Name = "Headless"
+Headless.Parent = ScrollingFrame
+Headless.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Headless.BackgroundTransparency = 0.500
+Headless.Position = UDim2.new(0.0579710007, 0, 0.634408593, 0)
+Headless.Size = UDim2.new(0, 48, 0, 36)
+Headless.Font = Enum.Font.SourceSans
+Headless.Text = "Headless"
+Headless.TextColor3 = Color3.fromRGB(0, 0, 0)
+Headless.TextScaled = true
+Headless.TextSize = 14.000
+Headless.TextWrapped = true
+ 
+Zombie.Name = "Zombie"
+Zombie.Parent = ScrollingFrame
+Zombie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Zombie.BackgroundTransparency = 0.500
+Zombie.Position = UDim2.new(0.48550722, 0, 0.634408593, 0)
+Zombie.Size = UDim2.new(0, 48, 0, 36)
+Zombie.Font = Enum.Font.SourceSans
+Zombie.Text = "Zombie"
+Zombie.TextColor3 = Color3.fromRGB(0, 0, 0)
+Zombie.TextScaled = true
+Zombie.TextSize = 14.000
+Zombie.TextWrapped = true
+ 
+Title.Name = "Title"
+Title.Parent = ScrollingFrame
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 0.500
+Title.Position = UDim2.new(-0.00724637695, 0, 0.0380452052, 0)
+Title.Size = UDim2.new(0, 126, 0, 29)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Murder Mystery 2 Emotes"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+ 
+Idk.Name = "Idk"
+Idk.Parent = ScrollingFrame
+Idk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Idk.BackgroundTransparency = 0.500
+Idk.Position = UDim2.new(0, 0, 0.860625803, 0)
+Idk.Size = UDim2.new(0, 126, 0, 29)
+Idk.Font = Enum.Font.SourceSans
+Idk.Text = "Gui made by cool duck ok111 "
+Idk.TextColor3 = Color3.fromRGB(0, 0, 0)
+Idk.TextScaled = true
+Idk.TextSize = 14.000
+Idk.TextWrapped = true
+ 
+-- Scripts:
+ 
+local function GQEUX_fake_script() -- Zen.LocalScript
+local script = Instance.new('LocalScript', Zen)
+ 
+Zen.MouseButton1Click:Connect(function()
+local string_1 = "zen";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(GQEUX_fake_script)()
+local function EOENR_fake_script() -- Floss.LocalScript
+local script = Instance.new('LocalScript', Floss)
+ 
+Floss.MouseButton1Click:Connect(function()
+local string_1 = "floss";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(EOENR_fake_script)()
+local function TWLCCG_fake_script() -- Ninja.LocalScript
+local script = Instance.new('LocalScript', Ninja)
+ 
+Ninja.MouseButton1Click:Connect(function()
+local string_1 = "ninja";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(TWLCCG_fake_script)()
+local function HFTXLG_fake_script() -- Dab.LocalScript
+local script = Instance.new('LocalScript', Dab)
+ 
+Dab.MouseButton1Click:Connect(function()
+local string_1 = "dab";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(HFTXLG_fake_script)()
+local function KLCEG_fake_script() -- SprayPaint.LocalScript
+local script = Instance.new('LocalScript', SprayPaint)
+ 
+SprayPaint.MouseButton1Click:Connect(function()
+local string_1 = "SprayPaint";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(KLCEG_fake_script)()
+local function YITLYDI_fake_script() -- Sit.LocalScript
+local script = Instance.new('LocalScript', Sit)
+ 
+Sit.MouseButton1Click:Connect(function()
+local string_1 = "sit";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(YITLYDI_fake_script)()
+local function DTNVBVN_fake_script() -- Headless.LocalScript
+local script = Instance.new('LocalScript', Headless)
+ 
+Headless.MouseButton1Click:Connect(function()
+local string_1 = "headless";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(DTNVBVN_fake_script)()
+local function NKJB_fake_script() -- Zombie.LocalScript
+local script = Instance.new('LocalScript', Zombie)
+ 
+Zombie.MouseButton1Click:Connect(function()
+local string_1 = "zombie";
+local Target = game:GetService("ReplicatedStorage").PlayEmote;
+Target:Fire(string_1);
+end)
+end
+coroutine.wrap(NKJB_fake_script)()
