@@ -80,7 +80,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0, 0, 0.600000024, 0)
 TextLabel.Size = UDim2.new(0, 270, 0, 10)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Made by Nyser#4623"
+TextLabel.Text = "Made by BenzyScripts"
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextSize = 15
  
