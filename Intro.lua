@@ -1,4 +1,6 @@
 local ScPlayer = player.PlayerGui
+local TweenService = game:GetService("TweenService")
+local camera = game.Workspace.CurrentCamera
 local ScreenGui = Instance.new('ScreenGui')
 ScreenGui.Parent = ScPlayer
 ScreenGui.Name = 'Intro'
