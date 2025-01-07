@@ -1,4 +1,8 @@
-
+local ScPlayer = player.PlayerGui
+local ScreenGui = Instance.new('ScreenGui')
+ScreenGui.Parent = ScPlayer
+ScreenGui.Name = 'Intro'
+ScreenGui.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
 local LabelText = Instance.new('Frame')
 LabelText.Size = UDim2.new(1, 0,1, 0)
 LabelText.Position = UDim2.new(0.5, 0,0.5, 0)
